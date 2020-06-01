@@ -3,10 +3,10 @@
 #include <DHT.h>
 #include <SimpleTimer.h>
 
-#define FIREBASE_HOST "robot-terbang-sensordht11.firebaseio.com"
-#define FIREBASE_AUTH "IgnOuvLkofBnDHFR7LUCDbcrIBm23kJZx6lQhXAa"
-#define WIFI_SSID "wifi-testing"
-#define WIFI_PASSWORD "arDY1234"
+#define FIREBASE_HOST "INSERTYOURHOST"
+#define FIREBASE_AUTH "INSERTYOURAUTH"
+#define WIFI_SSID "INSERTYOURSSID"
+#define WIFI_PASSWORD "INSERTYOURPASS"
 
 #define LED1 D1
 #define LED2 D2
@@ -26,7 +26,7 @@ void setup() {
   Serial.println("\n\n===================");
   Serial.println("Live Youtube #1 IoT");
   Serial.println("Firebase + ESP8266 + Arduino");
-  Serial.println("Ardy Seto Priambodo");
+  Serial.println("Ardy Seto");
   Serial.println("\n\n===================");
   delay(1000);
 
